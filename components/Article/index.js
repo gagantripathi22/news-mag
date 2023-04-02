@@ -7,7 +7,7 @@ export const ArticleContext = createContext(null);
 export const ArticleImageContext = createContext(null);
 
 const Article = (props) => {
-  console.log("in Article Index : ", props);
+  // console.log("in Article Index : ", props);
   return (
     <>
       <ArticleContext.Provider value={props}>

@@ -47,7 +47,7 @@ const Footer = () => {
         <div className="w-screen max-w-[1600px] ml-auto mr-auto">
           <div className="navbar-main hidden lg:flex flex-row">
             {navItems.map((cat) => (
-              <Link href={`/category/${cat.name.toLowerCase()}`}>
+              <Link key={cat.name} href={`/category/${cat.name.toLowerCase()}`}>
                 <div className="cursor-pointer group">
                   <h5 className="font-RobotoSlab text-gray-500 pr-7 group-hover:text-gray-600">
                     {cat.name}

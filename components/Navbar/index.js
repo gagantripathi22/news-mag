@@ -42,7 +42,7 @@ const Navbar = () => {
       </div>
       <div className="navbar-navigation w-full max-w-[1600px] h-9 border-t-2 border-b-2 px-[140px] hidden lg:flex felx-col items-center justify-between">
         {navItems.map((item) => (
-          <Link href={`/category/${item.name.toLowerCase()}`}>
+          <Link key={item.name} href={`/category/${item.name.toLowerCase()}`}>
             <div className="h-full px-5 hover:bg-gray-100 flex items-center cursor-pointer">
               <h5 className="font-RobotoSlab text-[14px]">{item.name}</h5>
             </div>

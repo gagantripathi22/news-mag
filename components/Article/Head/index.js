@@ -7,8 +7,8 @@ import { ArticleContext } from "..";
 
 const HeadArticle = () => {
   const article = useContext(ArticleContext);
-  console.log("in Article Head ", article);
-  console.log("in Article Head Image ", article.image);
+  // console.log("in Article Head ", article);
+  // console.log("in Article Head Image ", article.image);
   return (
     <>
       <Head>

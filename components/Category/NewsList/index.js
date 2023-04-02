@@ -18,7 +18,7 @@ const NewsList = () => {
         )
         .then((response) => {
           setArticles(response.data.response.docs);
-          console.log(response.data.response.docs);
+          // console.log(response.data.response.docs);
         })
         .catch((error) => {
           console.log(error);
@@ -26,7 +26,7 @@ const NewsList = () => {
   };
   useEffect(() => {
     setCategory(cat.query.category);
-    console.log("category changed", category);
+    // console.log("category changed", category);
     if (cat.query.category !== category) setIsLoading(true);
   }, [cat]);
 
@@ -59,6 +59,7 @@ const NewsList = () => {
           {articles?.map((article) => {
             return (
               <Link
+                key={article._id}
                 href={{
                   pathname: `/${generateUrlFromTitle(article.headline.main)}`,
                   query: {

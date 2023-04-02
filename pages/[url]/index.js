@@ -12,15 +12,15 @@ import Article from "../../components/Article";
 //   };
 // };
 
-const index = () => {
+const ArticleIndex = () => {
   // console.log(context.article);
   const router = useRouter();
   let query = router.query;
   query = JSON.parse(query.article);
   let queryImage = router.query;
   queryImage = queryImage.image;
-  console.log("in url ", query);
-  console.log("in url image ", queryImage);
+  // console.log("in url ", query);
+  // console.log("in url image ", queryImage);
   return (
     <>
       <Article post={query} image={queryImage} />
@@ -28,4 +28,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default ArticleIndex;
