@@ -30,8 +30,9 @@ const SidePosts = () => {
             )}`,
             query: {
               article: JSON.stringify(topHeadlines?.results[6]),
-              image:
-                topHeadlines?.results[6]?.media[0]["media-metadata"][2].url,
+              image: topHeadlines?.results[6].media[0]
+                ? topHeadlines?.results[6].media[0]["media-metadata"][2].url
+                : "https://www.peacemakersnetwork.org/wp-content/uploads/2019/09/placeholder.jpg",
             },
           }}
           as={`/${generateUrlFromTitle(topHeadlines?.results[6].title)}`}
@@ -65,8 +66,9 @@ const SidePosts = () => {
             )}`,
             query: {
               article: JSON.stringify(topHeadlines?.results[7]),
-              image:
-                topHeadlines?.results[7]?.media[0]["media-metadata"][2].url,
+              image: topHeadlines?.results[7].media[0]
+                ? topHeadlines?.results[7].media[0]["media-metadata"][2].url
+                : "https://www.peacemakersnetwork.org/wp-content/uploads/2019/09/placeholder.jpg",
             },
           }}
           as={`/${generateUrlFromTitle(topHeadlines?.results[7].title)}`}
@@ -100,8 +102,9 @@ const SidePosts = () => {
             )}`,
             query: {
               article: JSON.stringify(topHeadlines?.results[8]),
-              image:
-                topHeadlines?.results[8]?.media[0]["media-metadata"][2].url,
+              image: topHeadlines?.results[8].media[0]
+                ? topHeadlines?.results[8].media[0]["media-metadata"][2].url
+                : "https://www.peacemakersnetwork.org/wp-content/uploads/2019/09/placeholder.jpg",
             },
           }}
           as={`/${generateUrlFromTitle(topHeadlines?.results[8].title)}`}
@@ -135,8 +138,9 @@ const SidePosts = () => {
             )}`,
             query: {
               article: JSON.stringify(topHeadlines?.results[11]),
-              image:
-                topHeadlines?.results[15]?.media[0]["media-metadata"][2].url,
+              image: topHeadlines?.results[15].media[0]
+                ? topHeadlines?.results[15].media[0]["media-metadata"][2].url
+                : "https://www.peacemakersnetwork.org/wp-content/uploads/2019/09/placeholder.jpg",
             },
           }}
           as={`/${generateUrlFromTitle(topHeadlines?.results[11].title)}`}
