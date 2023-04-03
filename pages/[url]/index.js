@@ -16,7 +16,7 @@ const ArticleIndex = () => {
   // console.log(context.article);
   const router = useRouter();
   let query = router.query;
-  query = JSON.parse(query.article);
+  query = query.article;
   let queryImage = router.query;
   queryImage = queryImage.image;
   // console.log("in url ", query);
