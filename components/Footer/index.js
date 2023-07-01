@@ -57,7 +57,7 @@ const Footer = () => {
             ))}
           </div>
           <div className="navbar-main flex flex-row mt-0 lg:mt-8">
-            <h5 className="font-RobotoSlab w-fit text-gray-500 lg:pr-7 text-center ml-auto mr-auto lg:ml-0 lg:mr-0">
+            <h5 className="font-RobotoSlab ml-0 w-fit text-gray-500 lg:pr-7 text-center ml-auto mr-auto lg:ml-0 lg:mr-0">
               © 2022 News Magazine
             </h5>
           </div>

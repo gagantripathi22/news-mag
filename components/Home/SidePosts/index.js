@@ -38,7 +38,7 @@ const SidePosts = () => {
           as={`/${generateUrlFromTitle(topHeadlines?.results[6].title)}`}
         >
           <div className="mb-0 mt-5 lg:mt-0 cursor-pointer flex flex-row lg:flex-col">
-            <div className="side-posts-img-area h-32 lg:h-52 w-full relative overflow-hidden">
+            <div className="side-posts-img-area min-w-[40%] max-w-[40%] lg:min-w-full lg:max-w-full h-32 lg:h-52 w-full relative overflow-hidden">
               <img
                 src={
                   topHeadlines?.results[6].media[0]
@@ -74,7 +74,7 @@ const SidePosts = () => {
           as={`/${generateUrlFromTitle(topHeadlines?.results[7].title)}`}
         >
           <div className="mb-0 mt-5 lg:mt-0 cursor-pointer flex flex-row lg:flex-col">
-            <div className="side-posts-img-area h-32 lg:h-52 w-full relative overflow-hidden">
+            <div className="side-posts-img-area min-w-[40%] max-w-[40%] lg:min-w-full lg:max-w-full h-32 lg:h-52 w-full relative overflow-hidden">
               <img
                 src={
                   topHeadlines?.results[7].media[0]
@@ -110,7 +110,7 @@ const SidePosts = () => {
           as={`/${generateUrlFromTitle(topHeadlines?.results[8].title)}`}
         >
           <div className="mb-0 mt-5 lg:mt-0 cursor-pointer flex flex-row lg:flex-col">
-            <div className="side-posts-img-area h-32 lg:h-52 w-full relative overflow-hidden">
+            <div className="side-posts-img-area min-w-[40%] max-w-[40%] lg:min-w-full lg:max-w-full h-32 lg:h-52 w-full relative overflow-hidden">
               <img
                 src={
                   topHeadlines?.results[8].media[0]
@@ -146,7 +146,7 @@ const SidePosts = () => {
           as={`/${generateUrlFromTitle(topHeadlines?.results[11].title)}`}
         >
           <div className="mb-0 mt-5 lg:mt-0 cursor-pointer flex flex-row lg:flex-col">
-            <div className="side-posts-img-area h-32 lg:h-52 w-full relative overflow-hidden">
+            <div className="side-posts-img-area min-w-[40%] max-w-[40%] lg:min-w-full lg:max-w-full h-32 lg:h-52 w-full relative overflow-hidden">
               <img
                 src={
                   topHeadlines?.results[15].media[0]

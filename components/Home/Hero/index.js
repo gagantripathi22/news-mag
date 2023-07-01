@@ -79,7 +79,7 @@ const Hero = () => {
             as={`/${generateUrlFromTitle(topHeadlines?.results[1].title)}`}
           >
             <div className="hero-posts-two-one w-full lg:w-1/2 h-fit lg:h-[390px] cursor-pointer flex flex-row lg:flex-col-reverse">
-              <div className="hero-posts-two-one-img-area h-32 lg:h-3/4 w-full relative lg:mt-3 overflow-hidden">
+              <div className="hero-posts-two-one-img-area min-w-[40%] max-w-[40%] lg:min-w-full lg:max-w-full h-32 lg:h-3/4 w-full relative lg:mt-3 overflow-hidden">
                 <img
                   src={
                     topHeadlinesContext?.results[1].media[0]
@@ -119,7 +119,7 @@ const Hero = () => {
             as={`/${generateUrlFromTitle(topHeadlines?.results[2].title)}`}
           >
             <div className="hero-posts-two-one w-full lg:w-1/2 h-fit lg:h-[390px] cursor-pointer flex flex-row lg:flex-col-reverse">
-              <div className="hero-posts-two-one-img-area h-32 lg:h-3/4 w-full relative lg:mt-3 overflow-hidden">
+              <div className="hero-posts-two-one-img-area min-w-[40%] max-w-[40%] lg:min-w-full lg:max-w-full h-32 lg:h-3/4 w-full relative lg:mt-3 overflow-hidden">
                 <img
                   src={
                     topHeadlinesContext?.results[2].media[0]
