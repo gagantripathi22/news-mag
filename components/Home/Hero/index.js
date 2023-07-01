@@ -32,6 +32,7 @@ const Hero = () => {
             query: {
               article: JSON.stringify(topHeadlines?.results[0]),
               image:
+                topHeadlinesContext?.results[0].media[0] &&
                 topHeadlinesContext?.results[0].media[0]["media-metadata"][2]
                   .url,
             },
@@ -70,6 +71,7 @@ const Hero = () => {
               query: {
                 article: JSON.stringify(topHeadlines?.results[1]),
                 image:
+                  topHeadlinesContext?.results[1].media[0] &&
                   topHeadlinesContext?.results[1].media[0]["media-metadata"][2]
                     .url,
               },
@@ -109,6 +111,7 @@ const Hero = () => {
               query: {
                 article: JSON.stringify(topHeadlines?.results[2]),
                 image:
+                  topHeadlinesContext?.results[2].media[0] &&
                   topHeadlinesContext?.results[2].media[0]["media-metadata"][2]
                     .url,
               },
@@ -148,6 +151,7 @@ const Hero = () => {
               query: {
                 article: JSON.stringify(topHeadlines?.results[3]),
                 image:
+                  topHeadlinesContext?.results[3].media[0] &&
                   topHeadlinesContext?.results[3].media[0]["media-metadata"][2]
                     .url,
               },
@@ -187,6 +191,7 @@ const Hero = () => {
               query: {
                 article: JSON.stringify(topHeadlines?.results[4]),
                 image:
+                  topHeadlinesContext?.results[4].media[0] &&
                   topHeadlinesContext?.results[4].media[0]["media-metadata"][2]
                     .url,
               },
@@ -226,6 +231,7 @@ const Hero = () => {
               query: {
                 article: JSON.stringify(topHeadlines?.results[5]),
                 image:
+                  topHeadlinesContext?.results[5].media[0] &&
                   topHeadlinesContext?.results[5].media[0]["media-metadata"][2]
                     .url,
               },
@@ -265,6 +271,7 @@ const Hero = () => {
               query: {
                 article: JSON.stringify(topHeadlines?.results[9]),
                 image:
+                  topHeadlinesContext?.results[9].media[0] &&
                   topHeadlinesContext?.results[9].media[0]["media-metadata"][2]
                     .url,
               },
@@ -304,6 +311,7 @@ const Hero = () => {
               query: {
                 article: JSON.stringify(topHeadlines?.results[10]),
                 image:
+                  topHeadlinesContext?.results[10].media[0] &&
                   topHeadlinesContext?.results[10].media[0]["media-metadata"][2]
                     .url,
               },
